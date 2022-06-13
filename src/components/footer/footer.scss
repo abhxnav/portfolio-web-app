@@ -1,0 +1,35 @@
+.footer {
+    background-color: var(--main-color);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 70px;
+    border-radius: 8px;
+    padding: 25px 25px;
+    padding-bottom: 25px;
+    margin-bottom: 60px;
+
+    .footer-name {
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(40, 40, 40);
+    }
+
+    .footer-credits {
+        font-size: small;
+        text-align: end;
+        color: rgb(40, 40, 40);
+
+        a {
+            text-decoration: none !important;
+            font-weight: bold;
+            color: black;
+
+            &:hover {
+                color: gray;
+            }
+        }
+    }
+}

@@ -1,0 +1,72 @@
+.section {
+    padding-bottom: 45px;
+
+    .blog-page {
+        margin-bottom: 30px;
+    }
+
+    .blogs-container {
+        margin-top: 10px;
+
+        .blog-card {
+            background-color: rgb(60, 60, 60);
+            height: 100%;
+            max-width: 350px;
+            box-shadow: 0 0 48px 0 rgba(4, 6, 4, 0.08) !important;
+            border-radius: 5px;
+            overflow: hidden;
+            outline-width: 0 !important;
+
+            .blog-card-image {
+                height: 140px;
+            }
+
+            .blog-card-title {
+                color: white;
+                font-weight: 400;
+            }
+
+            .blog-card-caption {
+                color: rgb(180, 180, 180) !important;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+.blogDialog {
+    .blogDialog-title {
+        color: white;
+    }
+
+    .blogDialog-image {
+        max-height: 300px;
+        width: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+
+    .blogDialog-description {
+        color: rgb(200, 200, 200);
+        margin-top: 10px !important;
+    }
+
+    .blogDialog-actions {
+        justify-content: center !important;
+        margin-bottom: 10px;
+
+        .blogDialog-icon {
+            color: white;
+            margin: 0 12px;
+            cursor: pointer;
+
+            .MuiSvgIcon-root {
+                font-size: 30px !important;
+            }
+
+            :hover {
+                color: var(--main-color);
+            }
+        }
+    }
+}

@@ -1,0 +1,96 @@
+.section {
+    padding-bottom: 45px;
+
+    .project-page {
+        margin-bottom: 30px;
+    }
+
+    // .tabs-container {
+    //     margin-bottom: 25px;
+
+    //     .custom-tabs {
+    //         .custom-tabs-item {
+    //             padding: 0 !important;
+    //             min-width: 0 !important;
+    //             margin-right: 20px !important;
+    //             text-transform: inherit !important;
+    //             font-size: 17px !important;
+    //             font-weight: 400 !important;
+    //             outline-width: 0 !important;
+    //         }
+
+    //         .active {
+    //             color: var(--main-color);
+    //         }
+    //     }
+    // }
+
+    .projects-container {
+        margin-top: 10px;
+
+        .project-card {
+            background-color: rgb(60, 60, 60);
+            height: 100%;
+            max-width: 350px;
+            box-shadow: 0 0 48px 0 rgba(4, 6, 4, 0.08) !important;
+            border-radius: 5px;
+            overflow: hidden;
+            outline-width: 0 !important;
+
+            .project-card-image {
+                height: 140px;
+            }
+
+            .project-card-title {
+                color: white;
+                font-weight: 400;
+            }
+
+            .project-card-caption {
+                color: rgb(180, 180, 180) !important;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+.projectDialog {
+    .projectDialog-title {
+        color: white;
+    }
+
+    .projectDialog-image {
+        max-height: 300px;
+        width: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+
+    .projectDialog-description {
+        color: rgb(200, 200, 200);
+        margin-top: 20px !important;
+    }
+
+    .projectDialog-actions {
+        justify-content: center !important;
+        margin-bottom: 10px;
+
+        .projectDialog-icon {
+            margin: 0 12px;
+            cursor: pointer;
+
+            .MuiSvgIcon-root {
+                color: white;
+                font-size: 30px !important;
+            }
+
+            :hover {
+                color: var(--main-color);
+            }
+        }
+    }
+}
+
+.css-tlc64q-MuiPaper-root-MuiDialog-paper {
+    background-color: rgb(40, 40, 40) !important;
+}

@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+html {
+    overflow: -moz-scrollbars-vertical;
+    overflow-y: scroll;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+    /* --main-color: #B999BE; */
+    /* --main-color: #8d9b6a; */
+    /* --main-color: #c6fad2; */
+    /* --main-color: #d49e8d; */
+    /* --main-color: #b1a6a4; */
+    /* --main-color: #697184; */
+    /* --main-color: #4cbfa6; */
+    /* --main-color: #A96762; */
+    /* --main-color: #75c9b7; */
+    /* --main-color: #7d94b5; */
+    --main-color: #abd699;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.top-60 {
+    margin-top: 60px !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.top-30 {
+    margin-top: 30px !important;
 }
 
-.App-link {
-  color: #61dafb;
+.p-30 {
+    padding: 30px !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media (max-width: 991px) {
+    .top-60 {
+        margin-top: 30px !important;
+    }
+}
+
+.container-shadow {
+    box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.15);
+}
+
+.main-content {
+    background-color: rgb(40, 40, 40);
+    min-height: 100vh;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+.section-title {
+    position: relative;
+    display: inline-block;
+    padding: 0 3px;
+}
+
+.section-title .section-title-text {
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 1px;
+    color: white;
+}
+
+.section-title span {
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    bottom: -3px;
+    left: 0;
+    background-color: var(--main-color);
 }

@@ -1,0 +1,75 @@
+.about-section {
+    padding-bottom: 70px;
+
+    .section-title {
+        margin-bottom: 30px;
+    }
+
+    .about-me-text {
+        font-size: 14px;
+        color: rgb(210, 210, 210);
+        line-height: 30px !important;
+        white-space: pre-line;
+    }
+}
+
+.timeline-section {
+    padding-bottom: 60px;
+
+    .timeline {
+        color: white;
+
+        .timeline-content {
+            color: rgb(210, 210, 210);
+            .timeline-title {
+                font-size: 16px !important;
+                font-weight: 500 !important;
+            }
+
+            .timeline-data {
+                color: white;
+            }
+
+            .timeline-description {
+                color: rgb(150, 150, 150);
+                font-size: small;
+                margin-top: 6px;
+            }
+        }
+    }
+}
+
+.skills-section {
+    padding-bottom: 45px;
+    justify-content: space-between;
+
+    .skills {
+        background-color: rgb(60, 60, 60) !important;
+        border-radius: 8px;
+        padding: 20px;
+        min-height: 186px;
+        height: 100%;
+
+        .skills-title {
+            color: white !important;
+            font-size: 14px !important;
+            font-weight: 500 !important;
+            line-height: 35px !important;
+        }
+
+        .skills-description {
+            display: flex;
+            align-items: center;
+            color: rgb(210, 210, 210);
+            font-weight: 400 !important;
+            line-height: 18px !important;
+
+            .timeline-dot {
+                border: 3px solid;
+                border-color: var(--main-color) !important;
+                padding: 2px !important;
+                margin-right: 5px !important;
+            }
+        }
+    }
+}

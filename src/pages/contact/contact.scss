@@ -1,0 +1,62 @@
+.contact {
+    .contact-form {
+        margin-bottom: 30px;
+    }
+
+    .contact-info-title {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .contact-info-container {
+        padding: 20px;
+        border: 1px solid lightgray;
+        border-radius: 6px;
+
+        .contact-info-item {
+            font-size: 16px !important;
+            color: rgb(180, 180, 180);
+
+            span {
+                color: white;
+            }
+        }
+
+        .contact-info-socials {
+            a {
+                cursor: pointer;
+
+                .MuiSvgIcon-root {
+                    font-size: 25px !important;
+                    margin-right: 15px;
+                    color: white;
+
+                    &:hover {
+                        color: var(--main-color);
+                    }
+                }
+
+                .anticon-skype {
+                    font-size: 25px !important;
+                    margin-right: 15px;
+                    color: white;
+
+                    &:hover {
+                        color: var(--main-color);
+                    }
+                }
+            }
+        }
+    }
+
+    .map-container {
+        padding-top: 30px;
+        padding-bottom: 20px;
+
+        .map {
+            height: 100%;
+            min-height: 400px;
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,73 @@
+.header {
+    margin-bottom: 30px !important;
+    background-color: white !important;
+    padding: 0 22px 0 0 !important;
+    border-radius: 6px !important;
+    box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.6) !important;
+    background-color: rgb(40, 40, 40) !important;
+
+    .header-home {
+        background-color: var(--main-color);
+        padding: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px  solid #97b889;
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+    }
+
+    .header-link {
+        font-weight: 500;
+        color: white !important;
+        padding-left: 10px;
+    }
+
+    .header-link:hover {
+        color: var(--main-color) !important;
+        transform: translateY(-5px);
+        transition: transform 100ms;
+    }
+
+    .header-link-active {
+        font-weight: 500;
+        color: var(--main-color) !important;
+        padding-left: 10px;
+    }
+
+    .header-left {
+        margin-right: auto;
+    }
+
+    .header-right {
+        display: flex !important;
+        align-items: center !important;
+        padding: 10px 0 10px 10px;
+    }
+
+    .header-right>a {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .header-right>a>.MuiSvgIcon-root {
+        font-size: 22px !important;
+        margin-right: 20px;
+        color: white;
+
+        &:hover {
+            color: var(--main-color);
+        }
+    }
+
+    .header-right>a>.anticon-skype {
+        font-size: 22px !important;
+        margin-right: 25px;
+        color: white;
+
+        &:hover {
+            color: var(--main-color);
+        }
+    }
+}
