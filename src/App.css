@@ -33,6 +33,10 @@ html {
     .top-60 {
         margin-top: 30px !important;
     }
+
+    .css-r1hick-MuiGrid-root>.MuiGrid-item {
+        padding-left: 64px !important;
+    }
 }
 
 .container-shadow {

@@ -22,6 +22,6 @@ code {
     monospace;
 }
 
-.css-r1hick-MuiGrid-root>.MuiGrid-item {
-  padding-left: 25px !important;
-}
+  .css-r1hick-MuiGrid-root>.MuiGrid-item {
+    padding-left: 25px !important;
+  }
