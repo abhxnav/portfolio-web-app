@@ -7,7 +7,7 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
   name: "Abhinav Kashyap",
-  title: "Front-end Developer",
+  title: "Front-End Developer",
   photo: require("../assets/images/display-picture.png"),
 
   dob: "December 8, 2000",
@@ -133,8 +133,7 @@ export default {
       images: ["https://rb.gy/hv6lh8", "https://rb.gy/hv6lh8"],
       title: "Cryptocurrency Web App",
       caption: "ReactJs, Firebase, Firestore",
-      description:
-        "A Cryptocurrency Web App made with ReactJs.",
+      description: "A Cryptocurrency Web App made with ReactJs.",
       links: [
         {
           link: "https://example.com/",
