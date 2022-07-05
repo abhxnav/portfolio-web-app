@@ -45,7 +45,7 @@ const Header = (props) => {
           >
             PROJECTS
           </Nav.Link>
-          {/* Blog Link */}
+          {/* Blog Link
           <Nav.Link
             as={NavLink}
             to="/blog"
@@ -54,7 +54,7 @@ const Header = (props) => {
             }
           >
             BLOG
-          </Nav.Link>
+          </Nav.Link> */}
           {/* Contact Link */}
           <Nav.Link
             as={NavLink}
