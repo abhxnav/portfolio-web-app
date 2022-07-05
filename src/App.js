@@ -23,7 +23,7 @@ function App() {
               <Switch>
                 <Route exact path="/" ><About /></Route>
                 <Route exact path="/projects" ><Projects /></Route>
-                <Route exact path="/blog" ><Blog /></Route>
+                {/* <Route exact path="/blog" ><Blog /></Route> */}
                 <Route exact path="/contact" ><Contact /></Route>
               </Switch>
             </div>
