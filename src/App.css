@@ -34,13 +34,13 @@ html {
     padding: 30px !important;
 }
 
-@media screen and (max-width: 1444px) {
+@media (max-width: 991px) {
     .top-60 {
         margin-top: 30px !important;
     }
 
     .css-r1hick-MuiGrid-root>.MuiGrid-item {
-        padding-left: 25px !important;
+        padding-left: 64px !important;
     }
 }
 

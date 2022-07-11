@@ -32,16 +32,20 @@ const Projects = () => {
       <DialogTitle
         onClose={() => setProjectDialog(false)}
         className="projectDialog-title"
+        style={{ backgroundColor: "rgb(40,40,40)" }}
       >
         {projectDialog.title}
       </DialogTitle>
-      <DialogContent>
+      <DialogContent style={{ backgroundColor: "rgb(40,40,40)" }}>
         {projectDialog.images && <ImageGallery images={projectDialog.images} />}
         <Typography className="projectDialog-description">
           {projectDialog.description}
         </Typography>
       </DialogContent>
-      <DialogActions className="projectDialog-actions">
+      <DialogActions
+        className="projectDialog-actions"
+        style={{ backgroundColor: "rgb(40,40,40)", paddingBottom: "20px" }}
+      >
         {projectDialog?.links?.map((link) => (
           <a
             href={link.link}
@@ -60,7 +64,7 @@ const Projects = () => {
     <Grid container className="section">
       {/* <Grid item xs={12} className="tabs-container">
         <Tabs
-          value={tabValue}
+          value={TabValue}
           indicatorColor="white"
           className="custom-tabs"
           onChange={(event, newValue) => setTabValue(newValue)}>
