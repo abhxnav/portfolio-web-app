@@ -54,20 +54,20 @@ export default {
     {
       title: "B.E. in Computer Science & Engineering - Chandigarh University",
       date: "2019 - Present",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officiis iste odit, quidem voluptatem labore accusantium quaerat ut placeat. Temporibus commodi aspernatur sed natus sit delectus architecto veniam a cupiditate, possimus maiores.",
+      // description:
+      //   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officiis iste odit, quidem voluptatem labore accusantium quaerat ut placeat. Temporibus commodi aspernatur sed natus sit delectus architecto veniam a cupiditate, possimus maiores.",
     },
     {
       title: "Intermediate - Delhi Public School, Ranipur, Haridwar",
       date: "2016 - 2018",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officiis iste odit, quidem voluptatem labore accusantium quaerat ut placeat. Temporibus commodi aspernatur sed natus sit delectus architecto veniam a cupiditate, possimus maiores.",
+      // description:
+      //   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officiis iste odit, quidem voluptatem labore accusantium quaerat ut placeat. Temporibus commodi aspernatur sed natus sit delectus architecto veniam a cupiditate, possimus maiores.",
     },
     {
       title: "Matriculate - Delhi Public School, Ranipur, Haridwar",
       date: "2014 - 2016",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officiis iste odit, quidem voluptatem labore accusantium quaerat ut placeat. Temporibus commodi aspernatur sed natus sit delectus architecto veniam a cupiditate, possimus maiores.",
+      // description:
+      // "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officiis iste odit, quidem voluptatem labore accusantium quaerat ut placeat. Temporibus commodi aspernatur sed natus sit delectus architecto veniam a cupiditate, possimus maiores.",
     },
   ],
 
@@ -76,19 +76,19 @@ export default {
       title: "Winter Intern - HighRadius Co.",
       date: "January, 2022 - April, 2022",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officiis iste odit, quidem voluptatem labore accusantium quaerat ut placeat. Temporibus commodi aspernatur sed natus sit delectus architecto veniam a cupiditate, possimus maiores.",
+        "Developed a Full Stack AI - powered B2B Invoice Management System. \n\nTools / Technologies Used : AI-ML, ReactJs, SQL Yog, Eclipse",
     },
     {
       title: "Summer Intern - ChainIt Inc.",
       date: "March, 2021 - May, 2021",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officiis iste odit, quidem voluptatem labore accusantium quaerat ut placeat. Temporibus commodi aspernatur sed natus sit delectus architecto veniam a cupiditate, possimus maiores.",
+        "Developed a Blockchain-based Video Streaming Platform. Worked on the backend using Ethereum, Truffle, Ganache, Remix.",
     },
     {
       title: "Content Creator - Quest",
-      date: "September, 2019 - December, 2019",
+      date: "September, 2019 - October, 2019",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officiis iste odit, quidem voluptatem labore accusantium quaerat ut placeat. Temporibus commodi aspernatur sed natus sit delectus architecto veniam a cupiditate, possimus maiores.",
+        "Worked as verified creator, creating content related to Technology, Politics, and Finance. Answered 140+ questions in the span of 1 month.",
     },
   ],
 
@@ -109,13 +109,7 @@ export default {
     },
     {
       title: "DATABASES",
-      description: [
-        "Firebase",
-        "My SQL Server",
-        "My SQL",
-        "MongoDB",
-        "Moralis",
-      ],
+      description: ["Firebase", "My SQL", "MongoDB", "Moralis"],
     },
     // {
     //     title: 'BLOCKCHAIN',
@@ -130,17 +124,24 @@ export default {
   projects: [
     {
       tag: "React",
-      images: ["https://rb.gy/hv6lh8", "https://rb.gy/hv6lh8"],
+      images: [
+        "https://i.ibb.co/WDBJzcH/cryptick-thumbnail.png",
+        "https://i.ibb.co/wcNvGcG/Screenshot-190.png",
+        "https://i.ibb.co/hM4gRW8/Screenshot-193.png",
+        "https://i.ibb.co/9p1pQ81/Screenshot-191.png",
+        "https://i.ibb.co/gRP55Rz/Screenshot-192.png",
+        "https://i.ibb.co/f4YXM1c/Screenshot-195.png",
+      ],
       title: "Cryptocurrency Web App",
       caption: "ReactJs, Firebase, Firestore",
       description: "A Cryptocurrency Web App made with ReactJs.",
       links: [
         {
-          link: "https://example.com/",
+          link: "https://github.com/abhxnav/crypto-tracker-react-app",
           icon: <GitHubIcon />,
         },
         {
-          link: "https://example.com/",
+          link: "https://cryptick.netlify.app",
           icon: <Language />,
         },
       ],

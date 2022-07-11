@@ -1,7 +1,7 @@
-import React from 'react';
-import Gallery from 'react-image-gallery';
+import React from "react";
+import Gallery from "react-image-gallery";
 
-import './imageGallery.scss';
+import "./imageGallery.scss";
 
 const ImageGallery = (props) => {
   const imageList = props?.images?.map((image) => {
@@ -13,9 +13,9 @@ const ImageGallery = (props) => {
 
   return (
     <div>
-      <Gallery items={imageList} showBullets showThumbnails={true} />
+      <Gallery items={imageList} showPlayButton={false} />
     </div>
-  )
-}
+  );
+};
 
 export default ImageGallery;
