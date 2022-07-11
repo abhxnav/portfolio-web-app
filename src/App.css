@@ -82,7 +82,3 @@ html {
     left: 0;
     background-color: var(--main-color);
 }
-
-.css-r1hick-MuiGrid-root>.MuiGrid-item {
-    padding-left: 25px !important;
-}
