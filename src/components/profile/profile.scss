@@ -34,9 +34,11 @@
     .profile-info {
         top: 0;
         left: 0;
-        margin: -45px 10px 30px;
+        margin: -45px 5px 30px;
 
         .timeline-content {
+            padding-left: 10px;
+
             .timeline-text {
                 font-size: 14.4px;
                 color: rgb(210, 210, 210);
