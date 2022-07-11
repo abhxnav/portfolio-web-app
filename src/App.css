@@ -34,7 +34,7 @@ html {
     padding: 30px !important;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1500px) {
     .top-60 {
         margin-top: 30px !important;
     }
