@@ -44,8 +44,8 @@ export default {
       icon: <LinkedInIcon />,
     },
     skype: {
-      link: "https://github.com/abhxnav",
-      text: "abhxnav",
+      link: "https://skype:live:.cid.cc59f2dd49af68d3",
+      text: "live:.cid.cc59f2dd49af68d3",
       icon: <SkypeFilled />,
     },
   },
@@ -146,96 +146,96 @@ export default {
         },
       ],
     },
-    {
-      tag: "React",
-      images: ["https://rb.gy/hv6lh8", "https://rb.gy/hv6lh8"],
-      title: "React Project 2",
-      caption: "Lorem ipsum dolor sit amet",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officiis iste odit, quidem voluptatem labore accusantium quaerat ut placeat. Temporibus commodi aspernatur sed natus sit delectus architecto veniam a cupiditate, possimus maiores.",
-      links: [
-        {
-          link: "https://example.com/",
-          icon: <GitHubIcon />,
-        },
-        {
-          link: "https://example.com/",
-          icon: <Language />,
-        },
-      ],
-    },
-    {
-      tag: "Java",
-      images: ["https://rb.gy/hv6lh8", "https://rb.gy/hv6lh8"],
-      title: "Java Project 1",
-      caption: "Lorem ipsum dolor sit amet",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officiis iste odit, quidem voluptatem labore accusantium quaerat ut placeat. Temporibus commodi aspernatur sed natus sit delectus architecto veniam a cupiditate, possimus maiores.",
-      links: [
-        {
-          link: "https://example.com/",
-          icon: <GitHubIcon />,
-        },
-        {
-          link: "https://example.com/",
-          icon: <Language />,
-        },
-      ],
-    },
-    {
-      tag: "Python",
-      images: ["https://rb.gy/hv6lh8", "https://rb.gy/hv6lh8"],
-      title: "Python Project 1",
-      caption: "Lorem ipsum dolor sit amet",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officiis iste odit, quidem voluptatem labore accusantium quaerat ut placeat. Temporibus commodi aspernatur sed natus sit delectus architecto veniam a cupiditate, possimus maiores.",
-      links: [
-        {
-          link: "https://example.com/",
-          icon: <GitHubIcon />,
-        },
-        {
-          link: "https://example.com/",
-          icon: <Language />,
-        },
-      ],
-    },
-    {
-      tag: "Python",
-      images: ["https://rb.gy/hv6lh8", "https://rb.gy/hv6lh8"],
-      title: "Python Project 2",
-      caption: "Lorem ipsum dolor sit amet",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officiis iste odit, quidem voluptatem labore accusantium quaerat ut placeat. Temporibus commodi aspernatur sed natus sit delectus architecto veniam a cupiditate, possimus maiores.",
-      links: [
-        {
-          link: "https://example.com/",
-          icon: <GitHubIcon />,
-        },
-        {
-          link: "https://example.com/",
-          icon: <Language />,
-        },
-      ],
-    },
-    {
-      tag: "React",
-      images: ["https://rb.gy/hv6lh8", "https://rb.gy/hv6lh8"],
-      title: "React Project 3",
-      caption: "Lorem ipsum dolor sit amet",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officiis iste odit, quidem voluptatem labore accusantium quaerat ut placeat. Temporibus commodi aspernatur sed natus sit delectus architecto veniam a cupiditate, possimus maiores.",
-      links: [
-        {
-          link: "https://example.com/",
-          icon: <GitHubIcon />,
-        },
-        {
-          link: "https://example.com/",
-          icon: <Language />,
-        },
-      ],
-    },
+    // {
+    //   tag: "React",
+    //   images: ["https://rb.gy/hv6lh8", "https://rb.gy/hv6lh8"],
+    //   title: "React Project 2",
+    //   caption: "Lorem ipsum dolor sit amet",
+    //   description:
+    //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officiis iste odit, quidem voluptatem labore accusantium quaerat ut placeat. Temporibus commodi aspernatur sed natus sit delectus architecto veniam a cupiditate, possimus maiores.",
+    //   links: [
+    //     {
+    //       link: "https://example.com/",
+    //       icon: <GitHubIcon />,
+    //     },
+    //     {
+    //       link: "https://example.com/",
+    //       icon: <Language />,
+    //     },
+    //   ],
+    // },
+    // {
+    //   tag: "Java",
+    //   images: ["https://rb.gy/hv6lh8", "https://rb.gy/hv6lh8"],
+    //   title: "Java Project 1",
+    //   caption: "Lorem ipsum dolor sit amet",
+    //   description:
+    //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officiis iste odit, quidem voluptatem labore accusantium quaerat ut placeat. Temporibus commodi aspernatur sed natus sit delectus architecto veniam a cupiditate, possimus maiores.",
+    //   links: [
+    //     {
+    //       link: "https://example.com/",
+    //       icon: <GitHubIcon />,
+    //     },
+    //     {
+    //       link: "https://example.com/",
+    //       icon: <Language />,
+    //     },
+    //   ],
+    // },
+    // {
+    //   tag: "Python",
+    //   images: ["https://rb.gy/hv6lh8", "https://rb.gy/hv6lh8"],
+    //   title: "Python Project 1",
+    //   caption: "Lorem ipsum dolor sit amet",
+    //   description:
+    //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officiis iste odit, quidem voluptatem labore accusantium quaerat ut placeat. Temporibus commodi aspernatur sed natus sit delectus architecto veniam a cupiditate, possimus maiores.",
+    //   links: [
+    //     {
+    //       link: "https://example.com/",
+    //       icon: <GitHubIcon />,
+    //     },
+    //     {
+    //       link: "https://example.com/",
+    //       icon: <Language />,
+    //     },
+    //   ],
+    // },
+    // {
+    //   tag: "Python",
+    //   images: ["https://rb.gy/hv6lh8", "https://rb.gy/hv6lh8"],
+    //   title: "Python Project 2",
+    //   caption: "Lorem ipsum dolor sit amet",
+    //   description:
+    //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officiis iste odit, quidem voluptatem labore accusantium quaerat ut placeat. Temporibus commodi aspernatur sed natus sit delectus architecto veniam a cupiditate, possimus maiores.",
+    //   links: [
+    //     {
+    //       link: "https://example.com/",
+    //       icon: <GitHubIcon />,
+    //     },
+    //     {
+    //       link: "https://example.com/",
+    //       icon: <Language />,
+    //     },
+    //   ],
+    // },
+    // {
+    //   tag: "React",
+    //   images: ["https://rb.gy/hv6lh8", "https://rb.gy/hv6lh8"],
+    //   title: "React Project 3",
+    //   caption: "Lorem ipsum dolor sit amet",
+    //   description:
+    //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officiis iste odit, quidem voluptatem labore accusantium quaerat ut placeat. Temporibus commodi aspernatur sed natus sit delectus architecto veniam a cupiditate, possimus maiores.",
+    //   links: [
+    //     {
+    //       link: "https://example.com/",
+    //       icon: <GitHubIcon />,
+    //     },
+    //     {
+    //       link: "https://example.com/",
+    //       icon: <Language />,
+    //     },
+    //   ],
+    // },
   ],
 
   blogs: [
