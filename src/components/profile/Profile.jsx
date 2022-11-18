@@ -1,14 +1,18 @@
-import React from 'react';
+import React from "react";
 import { saveAs } from "file-saver";
-import { Typography } from '@mui/material';
-import PersonIcon from '@mui/icons-material/Person';
-import GetAppIcon from '@mui/icons-material/GetApp';
+import { Typography } from "@mui/material";
+import PersonIcon from "@mui/icons-material/Person";
+import GetAppIcon from "@mui/icons-material/GetApp";
 
-import { Timeline, CustomTimelineSeparator, CustomButton } from '../components-index';
-import { TimelineItem, TimelineContent } from '../mui-index';
-import data from '../../utils/data';
+import {
+  Timeline,
+  CustomTimelineSeparator,
+  CustomButton,
+} from "../components-index";
+import { TimelineItem, TimelineContent } from "../mui-index";
+import data from "../../utils/data";
 
-import './profile.scss';
+import "./profile.scss";
 
 const CustomTimelineItem = ({ title, text, link }) => (
   <TimelineItem>
@@ -17,7 +21,9 @@ const CustomTimelineItem = ({ title, text, link }) => (
       {link ? (
         <Typography className="timeline-text">
           <span>{title}: </span>
-          <a href={link} target='_blank' rel="noreferrer">{text}</a>
+          <a href={link} target="_blank" rel="noreferrer">
+            {text}
+          </a>
         </Typography>
       ) : (
         <Typography className="timeline-text">
@@ -26,12 +32,10 @@ const CustomTimelineItem = ({ title, text, link }) => (
       )}
     </TimelineContent>
   </TimelineItem>
-)
+);
 
 const saveFile = () => {
-  saveAs(
-    data.resume, "Resume.pdf"
-  );
+  saveAs(data.resume, "Abhinav_Kashyap_Resume.pdf");
 };
 
 const Profile = () => {
@@ -55,11 +59,15 @@ const Profile = () => {
           <CustomTimelineItem title="Location" text={data.location} />
         </Timeline>
         <div className="btn-container">
-          <CustomButton text={"Download Resume"} icon={<GetAppIcon />} onClick={saveFile} />
+          <CustomButton
+            text={"Download Resume"}
+            icon={<GetAppIcon />}
+            onClick={saveFile}
+          />
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Profile;

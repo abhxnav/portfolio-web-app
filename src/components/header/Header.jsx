@@ -1,14 +1,14 @@
-import React from "react";
-import { HomeRounded, Telegram } from "@material-ui/icons";
-import { NavLink, withRouter, useHistory } from "react-router-dom";
-import { Nav, Navbar } from "react-bootstrap";
+import React from 'react';
+import { HomeRounded, Telegram } from '@material-ui/icons';
+import { NavLink, withRouter, useHistory } from 'react-router-dom';
+import { Nav, Navbar } from 'react-bootstrap';
 
-import CustomButton from "../button/CustomButton";
+import CustomButton from '../button/CustomButton';
 
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./header.scss";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './header.scss';
 
-import data from "../../utils/data";
+import data from '../../utils/data';
 
 const Header = (props) => {
   const pathName = props?.location?.pathname;
@@ -17,7 +17,7 @@ const Header = (props) => {
   return (
     <Navbar expand="lg" className="header sticky">
       {/* Home Link */}
-      <Nav.Link as={NavLink} to="/" className={"p-0 m-0"}>
+      <Nav.Link as={NavLink} to="/" className={'p-0 m-0'}>
         <Navbar.Brand className="header-home">
           <HomeRounded />
         </Navbar.Brand>
@@ -31,7 +31,7 @@ const Header = (props) => {
           <Nav.Link
             as={NavLink}
             to="/"
-            className={pathName === "/" ? "header-link-active" : "header-link"}
+            className={pathName === '/' ? 'header-link-active' : 'header-link'}
           >
             ABOUT
           </Nav.Link>
@@ -40,17 +40,17 @@ const Header = (props) => {
             as={NavLink}
             to="/projects"
             className={
-              pathName === "/projects" ? "header-link-active" : "header-link"
+              pathName === '/projects' ? 'header-link-active' : 'header-link'
             }
           >
             PROJECTS
           </Nav.Link>
-          {/* Blog Link
-          <Nav.Link
+          {/* Blog Link */}
+          {/* <Nav.Link
             as={NavLink}
             to="/blog"
             className={
-              pathName === "/blog" ? "header-link-active" : "header-link"
+              pathName === '/blog' ? 'header-link-active' : 'header-link'
             }
           >
             BLOG
@@ -60,7 +60,7 @@ const Header = (props) => {
             as={NavLink}
             to="/contact"
             className={
-              pathName === "/contact" ? "header-link-active" : "header-link"
+              pathName === '/contact' ? 'header-link-active' : 'header-link'
             }
           >
             CONTACT
@@ -74,9 +74,9 @@ const Header = (props) => {
             </a>
           ))}
           <CustomButton
-            text={"Get in Touch"}
+            text={'Get in Touch'}
             icon={<Telegram />}
-            onClick={() => history.push("/contact")}
+            onClick={() => history.push('/contact')}
           />
         </div>
       </Navbar.Collapse>

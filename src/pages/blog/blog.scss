@@ -53,14 +53,14 @@
 
     .blogDialog-actions {
         justify-content: center !important;
-        margin-bottom: 10px;
+        // margin-bottom: 10px;
 
         .blogDialog-icon {
-            color: white;
             margin: 0 12px;
             cursor: pointer;
 
             .MuiSvgIcon-root {
+                color: white;
                 font-size: 30px !important;
             }
 

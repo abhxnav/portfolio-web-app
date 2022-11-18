@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import { React, useState } from 'react';
 import {
   Grid,
   Typography,
@@ -11,12 +11,12 @@ import {
   DialogTitle,
   DialogContent,
   DialogActions,
-} from "@mui/material";
+} from '@mui/material';
 
-import ImageGallery from "../../components/image-gallery/ImageGallery";
-import data from "../../utils/data";
+import ImageGallery from '../../components/image-gallery/ImageGallery';
+import data from '../../utils/data';
 
-import "./projects.scss";
+import './projects.scss';
 
 const Projects = () => {
   // const [tabValue, setTabValue] = useState('All');
@@ -32,11 +32,11 @@ const Projects = () => {
       <DialogTitle
         onClose={() => setProjectDialog(false)}
         className="projectDialog-title"
-        style={{ backgroundColor: "rgb(40,40,40)" }}
+        style={{ backgroundColor: 'rgb(40,40,40)' }}
       >
         {projectDialog.title}
       </DialogTitle>
-      <DialogContent style={{ backgroundColor: "rgb(40,40,40)" }}>
+      <DialogContent style={{ backgroundColor: 'rgb(40,40,40)' }}>
         {projectDialog.images && <ImageGallery images={projectDialog.images} />}
         <Typography className="projectDialog-description">
           {projectDialog.description}
@@ -44,7 +44,7 @@ const Projects = () => {
       </DialogContent>
       <DialogActions
         className="projectDialog-actions"
-        style={{ backgroundColor: "rgb(40,40,40)", paddingBottom: "20px" }}
+        style={{ backgroundColor: 'rgb(40,40,40)', paddingBottom: '20px' }}
       >
         {projectDialog?.links?.map((link) => (
           <a
