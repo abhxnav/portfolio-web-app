@@ -135,7 +135,8 @@ export default {
       ],
       title: 'Cryptocurrency Web App',
       caption: 'React, Firebase, Firestore',
-      description: 'A Cryptocurrency Web App made with ReactJs.',
+      description:
+        'Top Cryptocurrencies and their Stats, Price and Charts with a Customizable Watchlist and Multiple login options. Tools Used : React, Sass, ChartJs, Material UI, CoingeckoAPI, Firebase.',
       links: [
         {
           link: 'https://github.com/abhxnav/crypto-tracker-react-app',
@@ -162,7 +163,7 @@ export default {
       title: 'Full Stack Blog Web App',
       caption: 'React, NodeJs, ExpressJs, MongoDB',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officiis iste odit, quidem voluptatem labore accusantium quaerat ut placeat. Temporibus commodi aspernatur sed natus sit delectus architecto veniam a cupiditate, possimus maiores.',
+        'A CRUD web app where users can read and write blogs with Login and Register User options. Blogs can be filtered using category tags. Tools Used : ReactJs, NodeJs, ExpressJs, MongoDB, Sass',
       links: [
         {
           link: 'https://github.com/abhxnav/Blog-Web-App',
@@ -184,8 +185,7 @@ export default {
       ],
       title: 'News Web App',
       caption: 'React',
-      description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officiis iste odit, quidem voluptatem labore accusantium quaerat ut placeat. Temporibus commodi aspernatur sed natus sit delectus architecto veniam a cupiditate, possimus maiores.',
+      description: '',
       links: [
         {
           link: 'https://github.com/abhxnav/News-React-App',
@@ -207,7 +207,7 @@ export default {
       title: 'Movie Info Web App',
       caption: 'React, Redux',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officiis iste odit, quidem voluptatem labore accusantium quaerat ut placeat. Temporibus commodi aspernatur sed natus sit delectus architecto veniam a cupiditate, possimus maiores.',
+        'An app where you can search movies and shows from all over the internet and find information related to them like release year, plot, cast, IMDB ratings, awards, etc. Tools Used : React, Sass, OMDB API.',
       links: [
         {
           link: 'https://github.com/abhxnav/movie-info-react-app',
@@ -225,7 +225,7 @@ export default {
       title: 'Color Picker Extension',
       caption: 'HTML, CSS, JavaScript',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officiis iste odit, quidem voluptatem labore accusantium quaerat ut placeat. Temporibus commodi aspernatur sed natus sit delectus architecto veniam a cupiditate, possimus maiores.',
+        'An easily accessible color picker tool in the form of a browser extension that invokes from the browser but works globally on your PC.',
       links: [
         {
           link: 'https://github.com/abhxnav/Color-Picker-Extension',
