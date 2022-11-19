@@ -106,6 +106,8 @@ export default {
         'React',
         'NodeJS',
         'ExpressJS',
+        'Bootstrap',
+        'Redux'
       ],
     },
     {
